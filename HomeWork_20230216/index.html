@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы валют</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Курсы валют</h1>
+    </header>
+    <main>
+        <div>
+            <h3>Список валют</h3>
+            <ul>
+                <li>€ (EUR) - Евро (Страны Еврозоны)</li>
+                <li>$ (USD) - Доллар (США)</li>
+                <li>£ (GBP) - Фунт стерлингов (Великобритания)</li>
+                <li>¥ (JPY) - Иена (Япония)</li>
+                <li>₾ (GEL) - Лари (Грузия)</li>
+            </ul>
+            <!--
+            <p>&#x2022; € (EUR) - Евро (Страны Еврозоны)</p>
+            <p>&#x2022; $ (USD) - Доллар (США)</p>
+            <p>&#x2022; £ (GBP) - Фунт стерлингов (Великобритания)</p>
+            <p>&#x2022; ¥ (JPY) - Иена (Япония)</p>
+            <p>&#x2022; ₾ (GEL) - Лари (Грузия)</p>
+            -->
+        </div>
+
+        <div>
+            <h3>Курс на сегодня</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Флаг</th>
+                        <th>Валюта</th>
+                        <th>Курс</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td-flex">
+                            <div class="flag flag-usa"></div>
+                            <div class="flag flag-eu"></div>
+                            <!--<img src="./images/usa.png" alt="USA" class="flag">
+                            <img src="./images/eu.webp" alt="EU" class="flag"> !-->
+                        </td>
+                        <td>$ (USD) / € (EUR)</td>
+                        <td>0,93€</td>
+                    </tr>
+                    <tr>
+                        <td class="td-flex">
+                            <div class="flag flag-uk"></div>
+                            <div class="flag flag-eu"></div>
+                            <!--<img src="./images/uk.png" alt="UK" class="flag">
+                            <img src="./images/eu.webp" alt="EU" class="flag"> !-->
+                        </td>
+                        <td>£ (GBP) / € (EUR)</td>
+                        <td>1,18€</td>
+                    </tr>
+                    <tr>
+                        <td class="td-flex">
+                            <div class="flag flag-japan"></div>
+                            <div class="flag flag-eu"></div>
+                            <!--<img src="./images/japan.png" alt="Japan" class="flag">
+                            <img src="./images/eu.webp" alt="EU" class="flag"> !-->
+                        </td>
+                        <td>¥ (JPY) / € (EUR)</td>
+                        <td>0,0073€</td>
+                    </tr>
+                    <tr>
+                        <td class="td-flex">
+                            <div class="flag flag-georgia"></div>
+                            <div class="flag flag-eu"></div>
+                            <!--<img src="./images/georgia.png" alt="Georgia" class="flag">
+                            <img src="./images/eu.webp" alt="EU" class="flag"> !-->
+                        </td>
+                        <td>₾ (GEL) / € (EUR)</td>
+                        <td>0,32€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

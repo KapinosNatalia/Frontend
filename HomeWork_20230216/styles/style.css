@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+ul{
+    font-size: 20px;
+    margin-left: 80px;   
+}
+
+table{
+    font-size: 20px;
+    border: 2px solid black;
+    border-collapse: collapse; /*границы ячеекне дублируются*/
+    margin-left: 40px;
+}
+
+td{
+    border: 1px solid black;
+}
+.td-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flag{
+    height: 40px;
+    width: 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    
+    /*display: flex;
+    justify-content: flex-end;*/
+}
+.flag-eu{
+    background-image: url(../images/eu.webp);
+}
+.flag-usa{
+    background-image: url(../images/usa.png);
+}
+.flag-uk{
+    background-image: url(../images/uk.png);
+}
+.flag-japan{
+    background-image: url(../images/japan.png);
+}
+.flag-georgia{
+    background-image: url(../images/georgia.png);
+}
