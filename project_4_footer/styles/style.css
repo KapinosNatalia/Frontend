@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1ABC9C;
+    height: 70px;
+}
+a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none; /*убираем нижнее подчеркивание*/
+}
+a:not(:last-child){
+    margin-right: 20px;
+}
+h1{
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    
+}
+.wrapper{
+    width: 90%;
+    /*background-color: bisque;*/
+    margin: 0 auto;
+}
+.header-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icon:not(:last-child){
+    margin-right: 20px;
+}
+/*блок О нас*/
+.about{
+   display: flex; 
+   align-items: center;
+}
+.about-img{
+    width: 50%;
+}
+.about-info{
+    padding: 0 65px;
+}
+.about-descr{
+    font-size: 20px;
+    text-align: justify;
+}
+/*наши проекты*/
+.projects{
+    background-color: #DCFFEB;
+    padding: 125px 0;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.projects-list{
+    display: flex;
+    gap: 35px;
+}
+.projects-item{
+    width: calc(100% / 3 - 17);
+}
+/*Контакты*/
+footer{
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+h3{
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-title{
+    font-size: 24px;
+    text-align: center;
+    margin: 25px auto;
+    color: #999999;
+}
+.footer-discr{
+    font-size: 24px;
+    text-align: center;
+}
+.footer-discr-red{
+    color: red;
+}
+
+
+/* 
+    
+
+    gap - отступ внутри flex-контейнера 
+    :not - НЕ
+    :last-child - последний элемент
+    :first-child - первый элемент
+    :nth-child(N) - задаем стили для N элемента 
+    
+    
+*/
