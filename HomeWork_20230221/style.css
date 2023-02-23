@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    /*height: 430px;*/  /*размеры картинки из макета*/
+    /*width: 420px;*/
+    width: 30%;
+    box-shadow: 0 0 10px 1px gray;
+    border-radius: 8px; 
+    padding: 15px 15px;
+    margin: 20px; /*для красоты*/    
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: right;
+}
+img{
+    /*height: 15px;*/
+    width: 10px;
+}
+h1{
+    font-size: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+input, button{
+    height: 50px;
+    font-size: 16px;    
+}
+input[name="email"], input[name="password"]{
+    padding: 15px;
+    border-width: 1px;
+    border-style: solid;
+    /*border-color: #CFD8DC;*/
+    border-radius: 10px;
+    caret-color: #FFAA0D;
+}
+input[name="email"]:focus, input[name="password"]:focus {    
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFE44D;
+    outline: none;
+}
+
+::placeholder{
+    color: #7B8E98;
+}
+button[name="createaccount"]{    
+    background-color: #FFE44D;
+    border-radius: 50px;
+    border: none;
+}
+button[name="login"]{    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CFD8DC;
+    background-color: white;
+    border-radius: 50px;
+}
+p{
+    font-size: 12px;
+    color: #7B8E98;
+}
