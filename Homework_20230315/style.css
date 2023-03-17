@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.task{
+    width: 70%;
+    /*height: 300px;*/
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+/*Создать кнопку и красный квадрат с размерами 200х200px. 
+При клике на кнопку менять у квадрата цвет заднего фона на зеленый и уменьшать его до размеров 100х100px.*/
+.task1-square{
+    width: 200px;
+    height: 200px;
+    border: 1px solid slategray;
+    margin: 20px 0;
+}
+.task1-square-changed{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(92, 175, 92);
+}
+
+/*Создать кнопку и розовый квадрат с размерами 200х200px. 
+При клике на кнопку менять цвет на синий и выводить в консоль обновленный цвет квадрата.*/
+.task2-square-pink{
+    background-color: pink;
+}
+.task2-square-blue{
+    background-color: rgb(41, 70, 235);
+}
+
+/*Создать кнопку и квадрат с размерами 150х150px. При клике на кнопку увеличивать высоту и ширину квадрата на 20px.*/
+.task3-square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid slategray;
+    margin: 20px 0;
+}
+
+/*Создать кнопку и div с классом root. При клике на кнопку в div создается параграф синего цвета. Текст параграфа произвольный.*/
+
+/*Создать кнопку и div с классом root. При клике на кнопку в div создаются по очереди параграфы синего и зеленого цветов. Первый цвет синий*/
+.task5-blue {
+    background-color: rgb(70, 95, 237);
+}
+
+.task5-green {
+    background-color: rgb(141, 225, 142);
+}
